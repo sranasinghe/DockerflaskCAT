@@ -10,8 +10,8 @@ images = ["images/1.jpeg","images/2.jpg"]
 def index():
   myimage = random.choice(images)
   return """
-  <h1>Python Flask in Docker!</h1>
-  <p>A sample web-app for running Flask inside Docker.</p>
+  <h1>Python Cat Generator</h1>
+  <p>A sample web-app to see cats.</p>
   <img src="{{myimage}}" />
   """
 
